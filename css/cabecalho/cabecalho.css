@@ -1,0 +1,7 @@
+.cabecalho{
+     height: 80px;
+     width: 100%;
+     background: rgb(2, 94, 250);
+     background: linear-gradient(156deg, rgba(2, 94, 250, 1) 12%, rgba(16, 16, 16, 1) 34%);
+}
+

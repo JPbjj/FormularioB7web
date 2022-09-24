@@ -1,0 +1,7 @@
+.cabecalho_container {
+     width: 1000px;
+     height: 100%;
+     margin: 0 auto;
+     justify-content: space-between;
+     display: flex;
+}

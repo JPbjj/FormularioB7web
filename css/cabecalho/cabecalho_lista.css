@@ -1,0 +1,19 @@
+.cabecalho_lista{
+     display: flex;
+     justify-content: flex-end;
+}
+
+.cabecalho_lista li{
+     margin: 35px;
+}
+
+.cabecalho_lista a{
+     text-decoration: none;
+     color: white;
+     font-family: 'Nova Square',cursive;
+}
+
+.cabecalho_lista a:hover {
+     color: goldenrod;
+     text-decoration: underline;
+}

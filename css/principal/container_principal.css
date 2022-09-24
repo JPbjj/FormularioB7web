@@ -1,0 +1,8 @@
+.container_principal{
+     width: 75vh;
+     height: 75vh;
+     background-color: rgba(226, 226, 226, 0.493);
+     display: flex;
+     justify-content: center;
+     border-radius: 0.50rem;
+}

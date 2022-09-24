@@ -1,0 +1,9 @@
+.botao_cadastro{
+     width:  100%;
+     border-radius: 0.25rem;
+     border: 1px solid #6e6d6d;
+     background-color: rgba(16, 16, 16, 1);
+     padding: 10px;
+     font-size: 15px;
+     color: #ffffff;
+}

@@ -1,0 +1,8 @@
+.principal{
+     background: rgb(2, 94, 250);
+     background: linear-gradient(0deg, rgba(2, 94, 250, 1) 8%, rgba(16, 16, 16, 1) 67%);
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}

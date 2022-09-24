@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Cadastro Competidor</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/cabecalho/cabecalho.css" />
+		<link rel="stylesheet" href="css/cabecalho/cabecalho_container.css" />
+		<link rel="stylesheet" href="css/cabecalho/cabecalho_logo.css">
+		<link rel="stylesheet" href="css/cabecalho/cabecalho_titulo.css">
+		<link rel="stylesheet" href="css/cabecalho/cabecalho_nav.css">
+		<link rel="stylesheet" href="css/cabecalho/cabecalho_lista.css">
+		<link rel="stylesheet" href="css/principal/principal.css">
+		<link rel="stylesheet" href="css/principal/container_principal.css">
+		<link rel="stylesheet" href="css/principal/formulario.css">
+		<link rel="stylesheet" href="css/principal/bloco.css">
+		<link rel="stylesheet" href="css/principal/divisao.css">
+		<link rel="stylesheet" href="css/principal/input.css">
+		<link rel="stylesheet" href="css/principal/botao_cadastro.css">
+		<link rel="stylesheet" href="css/rodape/rodape.css">
+		<link rel="stylesheet" href="css/rodape/rodape_container.css">
+		<link rel="stylesheet" href="css/rodape/rodape_patrocinadores.css">
+		<link rel="stylesheet" href="css/rodape/patrocinador_img1.css">
+		<link rel="stylesheet" href="css/rodape/rodape_autor.css">
+
+
+	</head>
+
+	<body>
+		<header>
+			<section class="cabecalho">
+				<div class="cabecalho_container">
+					<div class="cabecalho_logo"> <h1 class="cabecalho_titulo">
+						CADASTRO<span id="palavra">COMPETIDOR</span>
+					</h1> </div>
+						<nav class="cabecalho_nav">
+							<ul class="cabecalho_lista"><li><a href="">INICIO</a></li>
+							<li><a href="">CALENDÁRIO</a></li>
+							<li><a href="">OUTROS</a>
+							</li></ul>
+						</nav>
+					</div>
+				</div>
+			</section>
+		</header>
+		<main>
+			<section class="principal">
+				<div class="container_principal">
+					<form class="formulario" action="">
+							<div class="bloco primeiro_bloco">
+								<div class="divisao">
+									<label for="nome">Nome</label>
+									<input class = "input" type="text" name="nome" required placeholder="Digite seu nome" >
+								</div>							
+								<div class="divisao">
+									<label for="nome">Sobrenome</label>
+									<input class = "input" type="text" name="nome" required placeholder="Digite seu sobrenome">
+								</div>
+							</div>
+							<div class="bloco">
+								<div class="divisao">
+									<label for="graduacao">Graduacao</label>
+									<select class = "input" name="graduacao" class="graduacao" required>
+										<option value="1">Branca</option>
+										<option value="2">Cinza</option>
+										<option value="3">Amarela</option>
+										<option value="4">Laranja</option>
+										<option value="5">Verde</option>
+										<option value="6">Azul</option>
+										<option value="7">Roxa</option>
+										<option value="8">Marrom</option>
+										<option value="9">Preta</option>
+										<option value="10">Vermelha e Branca</option>
+									</select>
+								</div>
+								<div class="divisao">
+									<label for="modalide">Modalidade</label>
+									<select class = "input" name="modalidade" class="modalidade" required>
+										<option value="1">Gi</option>
+										<option value="2">No Gi</option>
+										<option value="3">Combo Gi + No Gi</option>
+									</select>
+								</div>
+							</div>
+							<div class="bloco">
+								<div class="divisao">
+									<label for="Peso_kimono">Peso com Kimono</label>
+									<input class = "input" type="number" name="peso-kimono" required placeholder="Seu peso em Kg">
+								</div>
+								<div class="divisao">
+									<label for="Peso_sem-kimono">Peso sem Kimono</label>
+									<input class = "input" type="number"required placeholder="Seu peso em Kg">
+								</div>
+							</div>
+							<div class="bloco">
+								<div class="divisao"><label for="Nome academia">Nome academia</label>
+								<input class = "input"  type="text" required placeholder="Quem você representa?"></div>
+							</div>
+							<div class="bloco"> <div class="divisao div_botao"><button class="botao_cadastro">Cadastrar</button></div></div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<section class="rodape">
+				<div class="rodape_container">
+					<div class="rodape_patrocinadores">
+						<span>Patrocinio:</span>
+						<img class ="patrocinador_img1" src="images/logo.png" alt="">
+					</div>
+					<div class="rodape_autor"> <span>Feito por: </span>
+					<a href="https://github.com/JPbjj">https://github.com/JPbjj</a></div>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>

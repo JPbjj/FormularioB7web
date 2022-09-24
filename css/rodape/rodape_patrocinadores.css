@@ -1,0 +1,12 @@
+.rodape_patrocinadores{
+     display: flex;
+     justify-content: space-between;
+}
+
+span{
+     margin: 20px;
+     height: 20px;
+     font-family: 'Nova Square',
+     cursive;
+     color: white;
+}
